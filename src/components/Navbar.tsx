@@ -47,10 +47,10 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="tel:0822252134"
+            href="tel:0123456789"
             className="px-5 py-2.5 bg-primary text-primary-foreground text-sm font-semibold font-body rounded-sm hover:bg-gold-light transition-colors"
           >
-            0822 252 134
+            0123456789
           </a>
         </div>
 
@@ -77,10 +77,10 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="tel:0822252134"
+            href="tel:0123456789"
             className="block text-center px-5 py-3 bg-primary text-primary-foreground text-sm font-semibold font-body rounded-sm"
           >
-            0822 252 134
+           0123456789
           </a>
         </div>
       )}
