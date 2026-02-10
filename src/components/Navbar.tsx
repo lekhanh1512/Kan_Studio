@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Camera, Menu, X } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const navLinks = [
   { label: "Dịch Vụ", href: "#services" },
@@ -28,11 +29,25 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         {/* Logo */}
-        <a href="#" className="flex items-center gap-2">
-          <Camera className="w-6 h-6 text-primary" />
-          <span className="font-display text-xl font-bold text-foreground">
-            Kan <span className="text-gradient-gold italic">Studio</span>
-          </span>
+        <a href="#" className="flex items-center gap-1">
+          {/* <Camera className="w-6 h-6 text-primary" /> */}
+          <div>
+            <img src={logo} alt="" className="w-12 h-12" />
+          </div>
+          <div className="leading-tight">
+            <div className="flex items-baseline gap-2">
+              <span className="font-display text-xl font-semibold text-white italic">
+                Kan
+              </span>
+              <span className="font-display text-xl font-semibold text-[#E3A018] italic">
+                Studio
+              </span>
+            </div>
+
+            <p className="text-[13px] italic font-display text-white tracking-wide">
+              Lưu giữ khoảnh khắc – Nâng tầm cảm xúc
+            </p>
+          </div>
         </a>
 
         {/* Desktop nav */}
@@ -59,7 +74,11 @@ const Navbar = () => {
           className="md:hidden text-foreground"
           onClick={() => setMobileOpen(!mobileOpen)}
         >
-          {mobileOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+          {mobileOpen ? (
+            <X className="w-6 h-6" />
+          ) : (
+            <Menu className="w-6 h-6" />
+          )}
         </button>
       </div>
 
@@ -80,7 +99,7 @@ const Navbar = () => {
             href="tel:0123456789"
             className="block text-center px-5 py-3 bg-primary text-primary-foreground text-sm font-semibold font-body rounded-sm"
           >
-           0123456789
+            0123456789
           </a>
         </div>
       )}

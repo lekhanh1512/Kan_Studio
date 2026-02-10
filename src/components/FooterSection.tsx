@@ -1,4 +1,6 @@
 import { Camera, Phone, MapPin } from "lucide-react";
+import logo from "@/assets/logo.png";
+
 
 const FooterSection = () => {
   return (
@@ -6,8 +8,8 @@ const FooterSection = () => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-2">
-            <Camera className="w-5 h-5 text-primary" />
-            <span className="font-display text-lg font-bold text-foreground">
+          <img src={logo} alt="" className="w-12 h-12" />
+          <span className="font-display text-lg font-bold text-foreground">
               Kan <span className="text-gradient-gold italic">Studio</span>
             </span>
           </div>

@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Camera, ArrowDown } from "lucide-react";
 import heroImage from "@/assets/hero-studio.jpg";
+import logo from "@/assets/logo.png";
 
 const HeroSection = () => {
   return (
@@ -21,9 +22,9 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="flex items-center justify-center gap-3 mb-6"
+          className="flex items-center justify-center gap-2 mb-6"
         >
-          <Camera className="w-5 h-5 text-primary" />
+          <img src={logo} alt="" className="w-14 h-14" />
           <span className="text-primary font-body text-sm tracking-[0.3em] uppercase">
             Photography Studio
           </span>
@@ -45,8 +46,8 @@ const HeroSection = () => {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="text-muted-foreground text-lg md:text-xl max-w-2xl mx-auto mb-10 font-light"
         >
-          Nơi mỗi khoảnh khắc được lưu giữ trở thành tác phẩm nghệ thuật. 
-          Chúng tôi biến câu chuyện của bạn thành những bức ảnh đẹp nhất.
+          Nơi mỗi khoảnh khắc được lưu giữ trở thành tác phẩm nghệ thuật. Chúng
+          tôi biến câu chuyện của bạn thành những bức ảnh đẹp nhất.
         </motion.p>
 
         <motion.div
