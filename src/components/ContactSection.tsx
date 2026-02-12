@@ -8,7 +8,7 @@ const ContactSection = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const text = `Xin chào Kan Studio, tôi là ${formData.name}. SĐT: ${formData.phone}. Dịch vụ: ${formData.service}. ${formData.message}`;
-    window.open(`https://zalo.me/0123456789?text=${encodeURIComponent(text)}`, "_blank");
+    window.open(`https://zalo.me/0814399120?text=${encodeURIComponent(text)}`, "_blank");
   };
 
   return (
@@ -57,8 +57,8 @@ const ContactSection = () => {
               </div>
               <div>
                 <h4 className="text-foreground font-display font-semibold mb-1">Điện Thoại</h4>
-                <a href="tel:0123456789" className="text-primary font-body text-sm hover:text-gold-light transition-colors">
-                0123456789
+                <a href="tel:0814399120" className="text-primary font-body text-sm hover:text-gold-light transition-colors">
+                0814399120
                 </a>
               </div>
             </div>

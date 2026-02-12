@@ -62,10 +62,10 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="tel:0123456789"
+            href="tel:0814399120"
             className="px-5 py-2.5 bg-primary text-primary-foreground text-sm font-semibold font-body rounded-sm hover:bg-gold-light transition-colors"
           >
-            0123456789
+            0814399120
           </a>
         </div>
 
@@ -96,10 +96,10 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="tel:0123456789"
+            href="tel:0814399120"
             className="block text-center px-5 py-3 bg-primary text-primary-foreground text-sm font-semibold font-body rounded-sm"
           >
-            0123456789
+            0814399120
           </a>
         </div>
       )}

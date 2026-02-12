@@ -16,7 +16,7 @@ const FooterSection = () => {
 
           <div className="flex flex-col sm:flex-row items-center gap-4 text-sm text-muted-foreground font-body">
             <span className="flex items-center gap-1.5">
-              <Phone className="w-3.5 h-3.5 text-primary" /> 0123456789
+              <Phone className="w-3.5 h-3.5 text-primary" /> 0814399120
             </span>
             <span className="hidden sm:inline text-border">|</span>
             <span className="flex items-center gap-1.5">
